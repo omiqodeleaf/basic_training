@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Court Piece Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="game-board">
+            <div id="player-hand" class="hand"></div>
+            <div id="opponent-hand" class="hand"></div>
+        </div>
+        <div id="scoreboard">
+            <h1>Scoreboard</h1>
+            <div id="player-score">Player: 0</div>
+            <div id="opponent-score">Opponent: 0</div>
+        </div>
+
+        <button id="play-turn-btn">Play Turn</button>
+        <button id="reset-btn" onClick="window.location.reload();">Reset</button>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+</html>
